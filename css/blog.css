@@ -1,0 +1,32 @@
+.ab p {
+	color: #1e1e1e;
+}
+.ab span {
+	color: #565656;
+}
+.ab {
+	display: grid;
+	grid-template-columns: repeat(1, 300px);
+	grid-template-rows: repeat(5, 1fr);
+	justify-self: center;
+}
+.a {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+
+	align-items: center;
+	width: 100%;
+	border: #1e1e1e solid;
+}
+.b {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+}
+h2{
+    text-align: center;
+    width: max-content;
+    margin: auto;
+}

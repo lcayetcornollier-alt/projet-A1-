@@ -1,0 +1,273 @@
+.navigation,
+.az {
+	display: flex;
+	width: 100%;
+	padding-top: 20px;
+	justify-content: space-between;
+	padding: 10px;
+	background-color: rgba(146, 96, 232, 1);
+}
+header,
+nav {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: space-between;
+	font-family: "ADLaM Display";
+	color: rgba(255, 255, 255, 1);
+}
+.az {
+	padding-right: 100px;
+}
+.box {
+	background-color: #ffffff;
+	width: 100%;
+	padding: 10px;
+}
+.a {
+	visibility: hidden;
+	position: absolute;
+}
+a:link:hover {
+	opacity: 0.5;
+}
+h1,
+h6,
+h3,
+p,
+a,
+button {
+	font-family: "Poppins";
+	color: rgba(255, 255, 255, 1);
+}
+section {
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+
+	color: rgba(255, 255, 255, 1);
+}
+p {
+	font-size: 16px;
+}
+button {
+	border-radius: 999px;
+	background-color: rgba(72, 208, 183, 1);
+	color: rgba(255, 255, 255, 1);
+	border: none;
+	padding: 10px;
+	width: 50%;
+}
+a {
+	color: rgba(255, 255, 255, 1);
+}
+a:link {
+	color: rgba(255, 255, 255, 1);
+	text-decoration: none;
+	font-weight: 800;
+}
+.licorne {
+	visibility: hidden;
+	position: absolute;
+}
+
+.avant p {
+	color: rgba(58, 58, 58, 1);
+}
+.avant {
+	display: flex;
+	width: 100%;
+}
+.avantage {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(3, 1fr);
+	width: 70%;
+	padding-top: 20px;
+	gap: 20px;
+	justify-self: center;
+}
+.gras {
+	font-weight: 700;
+}
+.efect {
+	background-color: rgba(146, 96, 232, 1);
+	width: 105%;
+}
+.fonctionnalités p,
+h3,
+h6 {
+	color: rgba(58, 58, 58, 1);
+}
+.fonctionnalités {
+	padding-top: 20px;
+	display: flex;
+	justify-self: center;
+	width: 70%;
+	gap: 10px;
+}
+.fonctionnalité {
+	display: flex;
+	justify-self: center;
+}
+.email h3 {
+	color: rgba(255, 255, 255, 1);
+}
+.email {
+	display: flex;
+	background: linear-gradient(90deg, #523682 0%, #6062e8 100%);
+	width: 100%;
+	text-align: center;
+	gap: 10px;
+	padding-bottom: 10px;
+}
+
+.emai {
+	text-align: left;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 100%;
+}
+.h1 {
+	margin: 0;
+}
+.em {
+	display: flex;
+	width: max-content;
+
+	justify-content: center;
+}
+.submit {
+	display: flex;
+	width: 100%;
+	align-self: center;
+	gap: 10px;
+}
+.submi {
+	width: max-content;
+	font-family: "Poppins";
+	background-color: #ffffff;
+	color: #5c55c9;
+	font-weight: 700;
+}
+input {
+	border-radius: 5px;
+	border: none;
+}
+input::placeholder {
+	font-family: "Poppins";
+}
+.description p {
+	color: #a2a2a2;
+	font-size: 14px;
+	font-weight: 600;
+}
+.description a:hover {
+	color: black;
+}
+.description {
+	display: flex;
+	flex-direction: column;
+	grid-area: 30px;
+	padding: 10px;
+}
+span {
+	font-family: "Poppins";
+	font-weight: 600;
+}
+footer {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	gap: 10%;
+}
+.licon {
+	visibility: hidden;
+	position: absolute;
+}
+@media (min-width: 768px) {
+	.az {
+		padding-right: 450px;
+	}
+	.anbur {
+		visibility: hidden;
+		position: absolute;
+	}
+	.a {
+		visibility: visible;
+		position: initial;
+		display: flex;
+		flex-direction: row;
+		gap: 15px;
+	}
+	section {
+		width: 40%;
+	}
+	nav {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		width: 100%;
+	}
+	.licorne {
+		visibility: visible;
+		position: absolute;
+		right: 5%;
+	}
+	.avantage {
+		padding-top: 20px;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(2, 1fr);
+	}
+	.fonc {
+		width: 100%;
+	}
+	.fonctionnalit {
+		display: flex;
+		flex-direction: row;
+	}
+	.fonctionnalité {
+		width: 30%;
+		height: fit-content;
+	}
+	.fonctionnalite {
+		display: flex;
+		flex-direction: row-reverse;
+	}
+	.f {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+		width: 90%;
+	}
+	footer {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		grid-template-rows: repeat(1, 1fr);
+		gap: 10px;
+	}
+}
+@media (min-width: 1024px) {
+	nav {
+		max-width: 1100px;
+	}
+	.avantage {
+		padding-top: 20px;
+		grid-template-columns: repeat(3, 2fr);
+		grid-template-rows: 1fr;
+	}
+	.licon {
+		visibility: visible;
+		position: initial;
+	}
+	.class {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	footer {
+		justify-content: space-between;
+		gap: 20%;
+	}
+}
